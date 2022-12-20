@@ -36,6 +36,8 @@
   "files.associations": {
     "new": "cpp",
     "cstdlib": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "vector": "cpp",
+    "ranges": "cpp"
   }
 }
