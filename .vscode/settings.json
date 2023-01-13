@@ -38,6 +38,9 @@
     "cstdlib": "cpp",
     "iostream": "cpp",
     "vector": "cpp",
-    "ranges": "cpp"
+    "ranges": "cpp",
+    "iosfwd": "cpp",
+    "ostream": "cpp",
+    "random": "cpp"
   }
 }
