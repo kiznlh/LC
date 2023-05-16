@@ -11,11 +11,16 @@ public:
     T getAge(){return a;}
 };
 
-
+void print(vector<int> arr){
+    for (auto i: arr){
+        cout << i;
+    }
+    cout <<endl;
+}
 
 
 int main() {
-    Base<int> ab;
-    ab.setAge(3);
-    cout << ab.getAge();
+    vector<int> arr = {1};
+    arr.insert(arr.begin() , 2);
+    print(arr);
 }   

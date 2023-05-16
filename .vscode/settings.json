@@ -42,5 +42,7 @@
     "iosfwd": "cpp",
     "ostream": "cpp",
     "random": "cpp"
-  }
+  },
+  "C_Cpp_Runner.useAddressSanitizer": false,
+  "C_Cpp_Runner.showCompilationTime": false
 }
