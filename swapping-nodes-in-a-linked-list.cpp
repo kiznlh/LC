@@ -14,7 +14,7 @@ class Solution {
 public:
     ListNode* swapNodes(ListNode* head, int k){
         int a, b;
-        ListNode* first, ListNode* second; 
+        ListNode* first, second; 
         for (int i = 0; i < k; ++i){
             
         }
