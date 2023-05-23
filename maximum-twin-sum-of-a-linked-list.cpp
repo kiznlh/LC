@@ -27,6 +27,7 @@ public:
         }
         ListNode* nextNode;
         ListNode* prev = nullptr;
+        //deivide the linked list into 2 equal parts
         while (slow){
             nextNode = slow->next;
             slow->next = prev;
