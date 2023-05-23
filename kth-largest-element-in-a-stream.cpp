@@ -3,6 +3,7 @@ using namespace std;
 
 class KthLargest {
 priority_queue<int,vector<int>,greater<int>> pq;
+// min_heap data structure -> sorted in ascending order
     int sz;
     KthLargest(int k, vector<int>& nums) {
 
