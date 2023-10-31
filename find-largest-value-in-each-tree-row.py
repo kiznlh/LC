@@ -10,6 +10,7 @@ class Solution(object):
         :type root: TreeNode
         :rtype: List[int]
         """
+        if not root: return []
         queue = []
         queue.append(root)
         ans = []
